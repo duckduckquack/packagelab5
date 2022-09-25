@@ -6,6 +6,8 @@ test_that("get_city_id works: ", {
   expect_equal(get_city_id("stockholm"), "0180")
 })
 
+
+
 test_that("get_city_id, wrong input errors up: ", {
   expect_error(get_city_id(5))
   expect_error(get_city_id("helsinki"))
