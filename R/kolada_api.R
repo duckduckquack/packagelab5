@@ -1,11 +1,3 @@
-#' S3 class wrapper for Kolada API
-#' Given a url it returns an S3 object of class kolada_api which wraps important results of the API call.
-#' @param url a string representing a call to the Kolada api
-#'
-#' @return an S3 object of class kolada_api
-#' @export kolada_api
-#' @examples
-#' k_api <- kolada_api("http://api.kolada.se/v2/municipality?title=ale")
 kolada_api <- function(url){
   ####Given the url for a Kolada API call it returns an S3 object of class kolada_api.
 
