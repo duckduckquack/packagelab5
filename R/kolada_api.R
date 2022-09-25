@@ -4,7 +4,6 @@
 #'
 #' @return an S3 object of class kolada_api
 #' @export kolada_api
-#'
 #' @examples
 #' k_api <- kolada_api("http://api.kolada.se/v2/municipality?title=ale")
 kolada_api <- function(url){
