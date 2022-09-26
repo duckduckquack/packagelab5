@@ -6,7 +6,7 @@
 #' @return a string
 #' @export
 #' @examples
-#' get_kpi_desc("Ekologiskt odlad åkermark, andel (%)")
+#' get_kpi_desc("Ekologiskt odlad \u00e5kermark, andel (%)")
 get_kpi_desc <- function(kpi){
   ####Returns the kpi description given a kpi title
 

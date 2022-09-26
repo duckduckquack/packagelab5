@@ -18,5 +18,5 @@ get_kpi_desc
 Given a kpi title it returns a short description related to the kpi
 }
 \examples{
-get_kpi_desc("Ekologiskt odlad åkermark, andel (\%)")
+get_kpi_desc("Ekologiskt odlad \u00e5kermark, andel (\%)")
 }

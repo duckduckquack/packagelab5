@@ -18,5 +18,5 @@ get_kpi_id
 Given a kpi title it returns the corresponding id
 }
 \examples{
-get_kpi_id("Ekologiskt odlad åkermark, andel (\%)")
+get_kpi_id("Ekologiskt odlad \u00e5kermark, andel (\%)")
 }

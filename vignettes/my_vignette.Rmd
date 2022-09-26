@@ -50,12 +50,12 @@ In this case, it returns the data regarding the organic farmland share in % in t
 ## 6) get_kpi_desc
 get_kpi_desc returns a brief description of the kpi given the kpi title:
 ```{r}
-get_kpi_desc("Ekologiskt odlad åkermark, andel (%)")
+get_kpi_desc("Ekologiskt odlad \u00e5kermark, andel (%)")
 ```
 ## 7) get_kpi_id 
 get_kpi_id returns the id of a kpi given its title:
 ```{r}
-get_kpi_id("Ekologiskt odlad åkermark, andel (%)")
+get_kpi_id("Ekologiskt odlad \u00e5kermark, andel (%)")
 ```
 ## 8) get_kpi_title
 get_kpi_title is the opposite of get_kpi_id. Given a kpi title it returns the corresponding id:

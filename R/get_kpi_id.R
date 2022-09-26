@@ -6,7 +6,7 @@
 #' @export
 #'
 #' @examples
-#' get_kpi_id("Ekologiskt odlad åkermark, andel (%)")
+#' get_kpi_id("Ekologiskt odlad \u00e5kermark, andel (%)")
 get_kpi_id <- function(kpi){
   ####Returns the kpi id given a kpi title
 
