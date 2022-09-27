@@ -15,6 +15,7 @@ knitr::opts_chunk$set(
 ```
 This vignette is an introduction to the package packagelab5.
 packagelab5 helps you navigate through the Kolada api. The Kolada api allows you to access the Kolada database which contains key indicators regarding the Swedish municipalities. More information can be found [here](https://www.kolada.se/).
+Also, other useful information can be found [here](https://github.com/duckduckquack/packagelab5.git)
 
 ## 1) Aim of the package
 This package contains useful functions to help you navigate through the Kolada api and get data from it. 
